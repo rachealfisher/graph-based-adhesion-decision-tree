@@ -9,7 +9,7 @@ You will need to have a SMILES file with all of your compounds in one column, an
 This code was also designed with the intention of making it possible to see which parts of the molecule the code was making its decisions on. This was partially successful, however, results should be taken with a grain of salt. The bit values are sometimes consistent between molecules, and sometimes inconsistent. I had more trust in those that are consistent between molecules.
 
 ## Output
-This code will, for each fold, generate a decision tree png mapping bit numbers to branches in the tree, and will notate which molecule ended at each leaf. It will also generate MSE and R^2 for the test value of each fold. You may also use it to attempt to assign bits to actual substructures.
+This code will, for each fold, generate a decision tree png mapping bit numbers to branches in the tree, and will notate which molecule ended at each leaf. It will also generate MSE and R^2 for the test value of each fold. You may also use it to attempt to assign bits to actual substructures. Examples of decision tree fold outputs can be found in `decision_tree_fold_x.png`.
 
 ## Errors
 Make sure that you have all the packages and files mentioned in the code. RDkit in particular can be finicky. If you don't know what is going wrong, first check that rdkit is working correctly.
